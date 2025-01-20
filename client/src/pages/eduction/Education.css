@@ -1,0 +1,38 @@
+.Education {
+    /* margin: 40px 0 0 200px; */
+    padding: 50px 0;
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: rgba(128, 128, 128, 0.051);
+}
+.Education hr {
+    width: 400px;
+    margin: 10px auto;
+    color: #138781;
+}
+.Education h2 {
+    font-weight: bold;
+    color: #138781
+}
+.Education .vertical-timeline-element-title{
+    color: #138781
+
+}
+.Education .vertical-timeline-element-subtitle{
+    color:#1e1e2c
+}
+/* ========================== */
+@media (max-width: 600px) {
+    .Education {
+      margin: 0;
+      padding: 0;
+      margin-top: 30px;
+    }
+    .Education h2 {
+      padding-top: 20px;
+    }
+    .Education hr {
+      width: 280px;
+      margin-bottom: 10px;
+    }
+  }

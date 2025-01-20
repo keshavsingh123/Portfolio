@@ -1,0 +1,43 @@
+
+.work-exp {
+    margin-left: 200px;
+    margin-top: 40px;
+    background-color: #1387812a;
+    padding: 50px 0;
+}
+.work-exp hr {
+    width: 400px;
+    margin: 10px auto;
+    color: #138781;
+}
+.work-exp h2 {
+    font-weight: bold;
+    color: #0a0e0de6;
+}
+.work-exp .vertical-timeline-element-title{
+    color:#138781
+}
+.work-exp .vertical-timeline-element-subtitle{
+    color:#2b3f3a94
+}
+#dark h2{
+    color: #fff;
+}
+#dark hr{
+    color: #fff;
+}
+#dark .vertical-timeline-element-date{
+    color: #fff;
+}
+/* =================== */
+
+@media (max-width: 600px) {
+    .work-exp {
+      margin: 0;
+      padding: 0;
+      margin-top: 50px;
+    }
+    .work-exp hr {
+      width: 280px;
+    }
+  }
