@@ -12,7 +12,7 @@ const app = express();
 //middleware
 app.use(
   cors({
-    origin: [""],
+    origin: process.env.FRONT_END,
     methods: ["POST", "GET"],
     credentials: true,
   })
