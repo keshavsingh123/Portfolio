@@ -21,7 +21,10 @@ const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/api/v1/portfolio/send-email", form);
+      const { data } = await axios.post(
+        `${process.env.REACT_APP_API}/api/v1/portfolio/send-email`,
+        form
+      );
       if (data?.success) {
         toast.success("Message sent successfully!");
         setForm({ name: "", email: "", sms: "" }); // Reset form
