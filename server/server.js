@@ -20,7 +20,7 @@ app.use(
 app.use(express.json());
 app.use("/api/v1/portfolio", router);
 //Route
-app.get((req, res) => {
+app.get("/", (req, res) => {
   res.send("Hi Portfolio");
 });
 //port
